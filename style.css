@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: Tahoma, Arial;
+  background: #f2f5f4;
+  color: #222;
+}
+
+header {
+  background: linear-gradient(90deg,#2ecc71,#27ae60);
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
+
+section {
+  padding: 40px;
+  text-align: center;
+}
+
+.goal button {
+  padding: 18px 35px;
+  margin: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.goal button:first-child { background:#e74c3c;color:white; }
+.goal button:last-child { background:#3498db;color:white; }
+
+.user-data input, select {
+  padding: 12px;
+  margin: 8px;
+  width: 200px;
+}
+
+.user-data button {
+  padding: 14px 30px;
+  background:#2ecc71;
+  border:none;
+  color:white;
+  border-radius:10px;
+  cursor:pointer;
+}
+
+#dashboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  gap: 20px;
+}
+
+.box {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,.1);
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  background:#ddd;
+  padding:20px;
+  text-align:center;
+}
